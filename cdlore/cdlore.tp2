@@ -22,6 +22,8 @@ LANGUAGE ~Russian (yota13)~ ~russian~
   ~cdlore/languages/russian/game.tra~
   
 LANGUAGE ~Simplified Chinese~ ~schinese~ 
+  ~cdlore/languages/english/weidu.tra~
+  ~cdlore/languages/english/game.tra~
   ~cdlore/languages/schinese/weidu.tra~
   ~cdlore/languages/schinese/game.tra~
 
@@ -181,7 +183,7 @@ COPY_EXISTING ~mastarea.2da~ ~override~
   END ~%MATCH1%%MATCH2%~
   BUT_ONLY  
 
-INCLUDE ~cdlore/lib/booklist.tpa~ // override/append values to list built from mastarea
+INCLUDE ~cdlore/lib/arealist.tpa~ // override/append values to list built from mastarea
 
 ACTION_PHP_EACH cd_areas AS area => value BEGIN
   
