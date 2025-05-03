@@ -196,6 +196,8 @@ END
 
 ACTION_IF GAME_IS ~iwdee iwd-in-bg2~ BEGIN // iwd areas
  
+  ACTION_DEFINE_ASSOCIATIVE_ARRAY cd_areas BEGIN   
+  
     // mainline areas
     ~AR1001~ => 2 // Easthaven (prologue) - Temple of Tempus
     ~AR1006~ => 2 // Easthaven (prologue) - Grisella's Winter's Cradle Tavern - main floor
